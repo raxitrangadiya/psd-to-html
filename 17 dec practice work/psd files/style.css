@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f6eacb;
+}
+.container {
+    width: 1300px;
+}
+.row {
+    display: flex;
+}
+.ml-a{
+    margin-left: auto;
+}
+/*  header start */
+.logo{
+    margin-left: 30px;
+}
+.header{
+    margin-top: 60px;
+}
+.navbar {
+   display: flex;
+  background-color: #8e425c;
+  border-radius: 20px;
+}
+.toolbox{
+     margin-top: 14px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #f6eacb;
+    text-transform: uppercase;
+    background-color: #8e425c;
+
+}
+.navbar li {
+  display: inline-block;
+  background-color: #8e425c;
+  padding: 30px 30px 30px 30px;
+  border-radius: 20px;
+}
+/* header end */
+/* section -1 start */
+
+/* section -1 end */
+/* section -2 start */
+
+/* section -2 end */
+/* section -3 start */
+
+/* section -3 end */
+/* section -4 start */
+
+/* section -4 end */
+/* section -5 start */
+
+/* section -5 end */
+/* section -6 start */
+
+/* section -6 end */
+/* section -7 start */
+
+/* section -7 end */
+/* section -8 start */
+
+/* section -8 end */
+/* section -9 start */
+
+/* section -9 end */
+/* section -10 start */
+
+/* section -10 end */
+/* section -11 start */
+
+/* section -11 end */
