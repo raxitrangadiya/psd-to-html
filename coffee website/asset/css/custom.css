@@ -1,0 +1,76 @@
+/* generel css  START*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 128px; */
+    background-color: #29a19c;
+    
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* font START */
+@font-face{
+    font-family:hello;
+    src:url(/asset/font/GrandHotel-Regular.ttf);
+}
+/* font END */
+/* generel css  END*/
+/* section-1 START */
+#section-1{
+    width: 1280px;
+    background-color: #222831;
+}
+header {
+    background-color: #222831;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+nav>ul {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    gap: 25px;
+}
+nav>ul>li {
+    width: 70px;
+    text-align: center;
+}
+nav>ul>li>a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    
+}
+nav>ul>li>a:hover {
+    color: #29a19c;
+    border-bottom: 4px #29a19c solid;
+    transform-origin: center;
+    transition: 0.5s;
+    padding-bottom: 5px;
+}
+.header-txt{
+    width: 662px;
+}
+.Coffee_Time {
+        font-size: 26.262px;
+        font-family: hello;
+        color: rgb(255, 255, 255);
+        line-height: 2.316;
+        text-align: left;
+      }
+/* section-1 END */
+

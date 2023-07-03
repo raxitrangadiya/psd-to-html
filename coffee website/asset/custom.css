@@ -1,0 +1,171 @@
+/* generel css  START*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 128px; */
+    background-color: #29a19c;
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* font START */
+@font-face {
+    font-family: Grandhotel;
+    src: url(./font/GrandHotel-Regular.ttf);
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(./font/Montserrat-Regular.ttf);
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+/* font END */
+/* generel css  END*/
+/* section-1 START */
+#section-1 {
+    /* width: 1280px; */
+    background-color: #222831;
+}
+
+header {
+    background-color: #222831;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+nav>ul {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    gap: 25px;
+}
+
+nav>ul>li {
+    width: 70px;
+    text-align: center;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: montserrat;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+nav>ul>li>a:hover {
+    color: #29a19c;
+    border-bottom: 4px #29a19c solid;
+    transform-origin: center;
+    transition: 0.5s;
+    padding-bottom: 5px;
+}
+
+.header-txt {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Coffee_Time {
+    font-size: 94px;
+    color: rgb(255, 255, 255);
+    font-family: Grandhotel;
+    /* line-height: 120px; */
+    margin-top: 30px;
+    text-align: left;
+}
+
+.headline {
+    font-size: 37px;
+    font-family: montserrat;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    /* line-height: 100px; */
+    margin-top: 20px;
+    text-align: left;
+}
+
+.description {
+    font-size: 16px;
+    font-family: montserrat;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    /* line-height: 20px; */
+    margin-top: 15px;
+}
+
+.header-but {
+    /* display: flex; */
+    font-size: 20px;
+    background-color: #29a19c;
+    color: aliceblue;
+    border-radius: 50px;
+    border: 0px transparent;
+    margin-top: 20px;
+    width: 130px;
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+    align-self: center;
+    margin-bottom: 150px;
+}
+
+
+.header-img {
+    width: 50%;
+
+    top: 175px;
+    right: -74px;
+}
+
+.header-img>img {
+    width: 100%;
+}
+
+.headerdata {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.wave {
+    bottom: 0;
+}
+
+.wave>img {
+    width: 100%;
+
+}
+
+/* section-1 END */
+/* section-2 START */
+#section-2 {
+    background-color: yellow;
+    height: 500px;
+}
+
+/* section-2 END */
