@@ -161,7 +161,8 @@ nav>ul>li>a:hover {
 /* section-1 END */
 /* section-2 START */
 #section-2 {
-    background-color: yellow;
+    /* margin-top: 0px; */
+    background-color: #29a19c;
     height: 500px;
 }
 
