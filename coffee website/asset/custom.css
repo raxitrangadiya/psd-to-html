@@ -16,6 +16,26 @@ body {
     margin: 0 auto;
 }
 
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-70 {
+    width: 70%;
+}
+
 /* font START */
 @font-face {
     font-family: Grandhotel;
@@ -27,13 +47,6 @@ body {
     src: url(./font/Montserrat-Regular.ttf);
 }
 
-.pos-rel {
-    position: relative;
-}
-
-.pos-abs {
-    position: absolute;
-}
 
 /* font END */
 /* generel css  END*/
@@ -134,9 +147,10 @@ nav>ul>li>a:hover {
     align-self: center;
     margin-bottom: 150px;
 }
+
 .header-img {
     width: 50%;
-    top: 175px;
+    top: 178px;
     right: -74px;
 }
 
@@ -150,7 +164,7 @@ nav>ul>li>a:hover {
 }
 
 .wave {
-    bottom: 0;
+    bottom: -5px;
 }
 
 .wave>img {
@@ -161,9 +175,44 @@ nav>ul>li>a:hover {
 /* section-1 END */
 /* section-2 START */
 #section-2 {
+
     /* margin-top: 0px; */
     background-color: #29a19c;
     height: 500px;
 }
+
+.group-2 {
+    display: flex;
+}
+
+.g2-txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.g2-but {
+    width: 130px;
+    font-weight: bold;
+    background-color: #222831;
+    color: whitesmoke;
+    border-radius: 20px;
+    border: 0px transparent;
+    padding: 5px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.Black_Coffees {
+    margin-top: 100px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    letter-spacing: 3px;
+    font-family: Grandhotel;
+
+}
+
 
 /* section-2 END */
